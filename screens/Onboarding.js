@@ -33,18 +33,18 @@ class Onboarding extends React.Component {
             <Block flex space="around" style={{ zIndex: 2 }}>
               <Block style={styles.title}>
                 <Block>
-                  <Text color="white" size={60}>
-                    Design
+                  <Text color="white" size={30}>
+                    Opportunités Propfessionnelles
                   </Text>
                 </Block>
                 <Block>
                   <Text color="white" size={60}>
-                    System
+                    UAC
                   </Text>
                 </Block>
                 <Block style={styles.subTitle}>
                   <Text color="white" size={16}>
-                    Fully coded React Native components.
+                    Emploies, stages & actualités ...
                   </Text>
                 </Block>
               </Block>
@@ -55,8 +55,13 @@ class Onboarding extends React.Component {
                   onPress={() => navigation.navigate("App")}
                   textStyle={{ color: argonTheme.COLORS.BLACK }}
                 >
-                  Get Started
+                  Commencez
                 </Button>
+              </Block>
+              <Block center>
+                    <Text color="white" size={16}>
+                    2020-2021
+                    </Text>
               </Block>
           </Block>
         </Block>
@@ -79,10 +84,11 @@ const styles = StyleSheet.create({
     width: width - theme.SIZES.BASE * 4,
     height: theme.SIZES.BASE * 3,
     shadowRadius: 0,
-    shadowOpacity: 0
+    shadowOpacity: 0,
+    //backgroundColor: "green",
   },
   logo: {
-    width: 200,
+    width: 320,
     height: 60,
     zIndex: 2,
     position: 'relative',

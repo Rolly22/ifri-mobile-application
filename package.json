@@ -1,7 +1,6 @@
 {
-  "name": "argon-react-native",
+  "name": "ifri-concours",
   "version": "1.6.0",
-  "description": "Argon React Native, based on Argon Design System. Coded by Creative Tim",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -55,10 +54,5 @@
     "argon expo react native",
     "react native ui template"
   ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-react-native/issues"
-  },
-  "homepage": "https://demos.creative-tim.com/argon-react-native"
+  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)"
 }
